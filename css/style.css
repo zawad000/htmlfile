@@ -1,0 +1,282 @@
+
+   
+   
+   
+    :root{
+        --ec:#8B9B7F;
+    --green:#8B9B7F;
+    --beige:#DCD1BF;
+    --primary-font:"Poppins", sans-serif;
+}
+*{ font-family:var(--primary-font) ;}
+
+.navbar-brand img{
+    max-width: 140px;
+}
+.mobileCart{
+
+justify-content: flex-end;
+flex-basis: calc(100%-250px);
+
+
+}
+
+.banner_section > img{
+/* max-height: 1315px; */
+object-fit: cover;
+aspect-ratio: 3/1;
+object-position:0% 105% ;
+}
+.herobanner_section{
+
+}
+.herobannerPhone{ 
+    position: relative;
+}
+
+.herobanner_section .herocontent{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+
+}
+.herobanner_section .herocontent h2{
+font-size: 57px;
+color: white;
+font-weight: 400;
+background-color: #8B9B7F;
+max-width: 300px;
+}
+.herobanner_section .herocontent h2 em{
+font-weight: 700;
+}
+.herobanner_section .herocontent a{
+background-color: var(--beige);
+}
+
+.feature_section  .container .row .col-lg-4   img{
+    max-width: 318px;
+}
+
+.feature_section, .aboutus_section{
+    padding:  120px 0px;
+}
+.btn-12{
+background-color:var(--ec) ;
+color: white;
+border: 1px solid #8B9B7F;
+} 
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+</style> 
+
+.btn-12:hover{
+    background-color:transparent;
+    color:#8B9B7F ;
+    border: 1px solid #8B9B7F; 
+}
+
+.aboutus_section{
+    background-color: #8B9B7F;
+}
+.col-lg-5 a{
+    margin-top: 20px;
+}
+.aboutus_section h2{
+font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 48px;
+    font-weight:700 ;
+    max-width: 420px;
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+}
+.aboutus_section h2 em{
+    font-weight: 100;
+
+}
+.aboutus_section p{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 15px;
+font-weight: 300;
+}
+/*feture_collection section start  */
+.feture_collection{
+    padding: 100px 100px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+
+}
+.title h2{
+    font-family: "Poppins", sans-serif;
+    color: black;
+    font-size: 48px;
+    font-weight:700 ;
+    /* max-width: 500px; */
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+
+}
+.title  h2 em{
+    font-weight:  400 ;
+}
+.product_card {
+    margin-top: 35px;
+
+}
+.product_card .product_img{
+   position: relative; 
+}
+.product_card .product_img .product_thumnail{
+
+}
+.product_card .product_img .wishlist{
+    
+        position: absolute;
+        right: 18px;
+        top: 24px;
+    
+}
+.product_card h3{
+    font-family:"Poppins", sans-serif ;
+    font-size: 20px;
+    font-weight: 400;
+}
+.product_card .price{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.product_card .price span{
+    font-size: 28px;
+    font-weight: 500;
+}
+.product_card .price  del{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+/*feture_collection section end  */
+/* feedback section start */
+.feedback_section{
+padding: 100px;
+background-color:#DCD1BF ;
+}
+.feedback {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.feedback h4{
+    font-size: 28px;
+font-weight: 500;
+margin: 20px 0px;
+}
+.feedback p{
+    font-size: 20px;
+    font-style: italic;
+
+}
+.feedback span{
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 40px;
+}
+.s1{
+
+}
+ .carousel-control-prev {
+ 
+    justify-content:    flex-start;
+   
+}
+.carousel-control-next{
+    justify-content:    flex-end
+
+}
+
+.carousel-control-prev-icon {
+    background-image: url("../img/a-l\ .svg");
+}
+
+.carousel-control-next-icon {
+    background-image: url("../img/a-r.svg");
+}
+.carousel-inner {
+    
+    padding: 80px;
+}
+
+/* feedback section end */
+.feedback_Slider{
+    margin-top: 40px;
+}
+.Community_section{
+    padding: 100px 0px;
+overflow: hidden;
+}
+.Community_section .row{
+    padding-left:  50px;
+    padding-right:  50px;
+
+} 
+.owl-carousel .CommunitySlyder{
+    padding-left:  50px;
+    padding-right:  50px;
+    margin-top: 50px;
+}
+
+
+
+
+.owl-carousel .CommunitySlyder .owl-stage-outer {
+   
+    overflow:visible !important;
+  
+}
+@media(max-width:991px){
+    .alinementCenter{
+        text-align: center;
+    }
+}
+@media(max-width:757px){
+    .feature_section, .aboutus_section {
+        padding: 50px 0px;
+    }
+     .feature_section   .row  {
+        gap: 30px;
+    }
+    .feture_collection {
+        padding: 50px 20px;
+    }
+    .title h2 {
+        
+        font-size: 40px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .product_card h3 {
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .product_card .price {
+        
+        justify-content: center;
+    }
+  
+}
